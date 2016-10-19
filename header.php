@@ -9,7 +9,7 @@
 
 <div class="container">
     <nav>
-        <img src="http://localhost:8888/wordpress/wp-content/themes/CreationThemes/image/nike_pizza.png"
+        <img src="http://localhost:8888/WP_NIKE_THEMING/wp-content/themes/CreationThemes/image/nike_pizza.png"
              style="width: 50px;" alt="">
 
 
