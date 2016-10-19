@@ -9,11 +9,14 @@
 
 <div class="container">
     <nav>
-        <img src="http://localhost:8888/WP_NIKE_THEMING/wp-content/themes/CreationThemes/image/nike_pizza.png"
-             style="width: 50px;" alt="">
+        <img src="http://localhost:8888/WP_NIKE_THEMING/wp-content/themes/CreationThemes/image/nike_pizza.png" style="width: 50px;" 
+             alt="">
 
+      
+       
 
-        <?php $defaults = array(
+        
+            <?php $defaults = array(
             'theme_location' => '',
             'menu' => 'menu-general',
             'container' => '',
@@ -33,6 +36,8 @@
         );
         wp_nav_menu($defaults);
         ?>
+       
+    
     </nav>
 </div>
 		

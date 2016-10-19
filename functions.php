@@ -12,4 +12,7 @@ function register_my_menus()
 }
 
 add_action('init', 'register_my_menus');
+function bloginfo( $show = '' ) {
+    echo get_bloginfo( $show, 'display' );
+}
 ?>
