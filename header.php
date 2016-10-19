@@ -3,15 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <title>NIKE</title>
-<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="screen" />
+    <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="screen"/>
 </head>
 <body>
 
 <div class="container">
- <nav>
-    <img src="http://localhost:8888/wordpress/wp-content/themes/CreationThemes/image/nike_pizza.png" style="width: 50px;" alt="">
+    <nav>
+        <img src="http://localhost:8888/wordpress/wp-content/themes/CreationThemes/image/nike_pizza.png"
+             style="width: 50px;" alt="">
 
-   
+
         <?php $defaults = array(
             'theme_location' => '',
             'menu' => 'menu-general',

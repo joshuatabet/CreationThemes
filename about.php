@@ -1,20 +1,20 @@
 <?php
 /**
-* Template Name: ABOUT
-*/
+ * Template Name: ABOUT
+ */
 get_header();
 ?>
 
-<?php 
+<?php
 
-if (have_posts()) : while(have_posts()) : the_post();
+if (have_posts()) : while (have_posts()) : the_post();
 
 
-	the_title();
-	the_content();
-	the_post_thumbnail();
-	the_excerpt();
-	the_permalink();
+    the_title();
+    the_content();
+    the_post_thumbnail();
+    the_excerpt();
+    the_permalink();
 
 
 endwhile; endif,
